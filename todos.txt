@@ -1,0 +1,11 @@
+play
+run
+clean
+bath
+laugh
+watch
+gym
+buy
+run
+laugh
+cry

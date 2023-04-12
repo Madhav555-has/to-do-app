@@ -1,0 +1,14 @@
+Important functions
+1) glob - will give you a list of all files inside some directories
+    ex - myfiles = glob.glob("files/*.txt")
+2)csv - csv is basically a text file split by columns.
+  So if you have a csv file that you want to convert to a csv format you can use this module.
+    ex- first open the file.
+        data = list(csv.reader(file))
+3)shutil - If you want to make archive of files in a directory then you can import this module.
+   ex- shutil.make_archive("output", "zip", "file")
+                        (name of the (extention) (directory in which your files are stored)
+                        file)
+4)webbrowser - if you want to search some terms in web browser you might want to try web browser module.
+    ex- term = input("enter your search term:")
+        webbrowser.open("https://google.com/search?q=" + term)
