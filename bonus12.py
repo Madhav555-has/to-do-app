@@ -16,7 +16,7 @@ if result < 1.65:
     print("kid is too small")
 else:
     print("Kid can ride")
-
+print("program is over")
 
 
 
